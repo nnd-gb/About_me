@@ -208,4 +208,80 @@ const projects = ref([
     flex-direction: column;
   }
 }
+
+/* Responsive pour mobile */
+@media screen and (max-width: 768px) {
+  .hero {
+    padding: 3rem 1rem;
+  }
+
+  .hero h1 {
+    font-size: 1.8rem;
+    word-break: break-word;
+  }
+
+  .hero h2 {
+    font-size: 1.2rem;
+  }
+
+  .subtitle {
+    font-size: 1rem;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    gap: 1rem;
+    padding: 0 1rem;
+  }
+
+  .btn {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 1rem;
+  }
+
+  .projects {
+    padding: 2rem 1rem;
+  }
+
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .skills-cloud {
+    gap: 0.5rem;
+  }
+
+  .skill-tag {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .hero h1 {
+    font-size: 1.5rem;
+  }
+
+  .hero h2 {
+    font-size: 1rem;
+  }
+
+  .project-card {
+    margin: 0;
+  }
+
+  .skill-tag {
+    font-size: 0.75rem;
+    padding: 0.3rem 0.6rem;
+  }
+}
+
+
 </style>

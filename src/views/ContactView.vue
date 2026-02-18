@@ -226,4 +226,106 @@ const envoyerMessage = () => {
     grid-template-columns: 1fr;
   }
 }
+
+/* Dans ContactView.vue */
+
+@media screen and (max-width: 768px) {
+  .contact {
+    padding: 2rem 1rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .contact-content {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+
+  .contact-info, .contact-form {
+    padding: 1.5rem;
+  }
+
+  .contact-info h2, .contact-form h2 {
+    font-size: 1.3rem;
+  }
+
+  .info-item {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.5rem;
+  }
+
+  .info-item .icon {
+    font-size: 1.3rem;
+  }
+
+  .social-links {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .social-link {
+    padding: 0.4rem 0.8rem;
+    font-size: 0.9rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    padding: 0.6rem;
+    font-size: 0.95rem;
+  }
+
+  .submit-btn {
+    padding: 0.8rem;
+    font-size: 0.95rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .contact-info, .contact-form {
+    padding: 1rem;
+  }
+
+  .info-item {
+    gap: 0.25rem;
+  }
+
+  .info-item h3 {
+    font-size: 0.95rem;
+  }
+
+  .info-item p {
+    font-size: 0.9rem;
+    word-break: break-word;
+  }
+
+  .social-link {
+    width: 100%;
+    text-align: center;
+  }
+}
+
+/* Pour très petits écrans */
+@media screen and (max-width: 320px) {
+  .contact-info h2, .contact-form h2 {
+    font-size: 1.1rem;
+  }
+
+  .form-group label {
+    font-size: 0.9rem;
+  }
+
+  .form-group input,
+  .form-group textarea {
+    font-size: 0.9rem;
+  }
+}
+
 </style>

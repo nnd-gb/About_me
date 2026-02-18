@@ -238,4 +238,57 @@ const cvDriveLink = 'https://drive.google.com/uc?export=download&id=1FGdZjynJrrJ
     grid-template-columns: 1fr;
   }
 }
+
+
+@media screen and (max-width: 768px) {
+  .about {
+    padding: 2rem 1rem;
+  }
+
+  .page-title {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+  }
+
+  .about-content {
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  .cv-section, .bio-section {
+    padding: 1rem;
+  }
+
+  .cv-section h2, .bio-section h2 {
+    font-size: 1.3rem;
+  }
+
+  .bio-text {
+    font-size: 0.95rem;
+  }
+
+  .experience {
+    padding: 1rem;
+  }
+
+  .download-btn {
+    padding: 0.8rem 1.5rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .page-title {
+    font-size: 1.8rem;
+  }
+
+  .experience h4 {
+    font-size: 1rem;
+  }
+
+  .company {
+    font-size: 0.85rem;
+  }
+}
+
 </style>
