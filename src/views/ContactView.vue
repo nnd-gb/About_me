@@ -64,62 +64,9 @@ const envoyerMessage = () => {
 
           <!-- Réseaux sociaux -->
           <div class="social-links">
-            <a href="#" class="social-link">LinkedIn</a>
-            <a href="#" class="social-link">GitHub</a>
-            <a href="#" class="social-link">Twitter</a>
+            <a href="#" class="https://www.linkedin.com/in/daniel-jordan-njetchou-nzepa-6a057733b?utm_source=share_via&utm_content=profile&utm_medium=member_ios">LinkedIn</a>
+            <a href="#" class="https://github.com/nnd-gb">GitHub</a>
           </div>
-        </div>
-
-        <!-- Formulaire de contact -->
-        <div class="contact-form">
-          <h2>Envoyez-moi un message</h2>
-          <form @submit.prevent="envoyerMessage">
-            <div class="form-group">
-              <label for="nom">Nom complet</label>
-              <input 
-                type="text" 
-                id="nom" 
-                v-model="formData.nom"
-                required
-                placeholder="Votre nom"
-              >
-            </div>
-            
-            <div class="form-group">
-              <label for="email">Email</label>
-              <input 
-                type="email" 
-                id="email" 
-                v-model="formData.email"
-                required
-                placeholder="votre@email.com"
-              >
-            </div>
-            
-            <div class="form-group">
-              <label for="sujet">Sujet</label>
-              <input 
-                type="text" 
-                id="sujet" 
-                v-model="formData.sujet"
-                required
-                placeholder="Sujet de votre message"
-              >
-            </div>
-            
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea 
-                id="message" 
-                v-model="formData.message"
-                required
-                placeholder="Votre message..."
-                rows="5"
-              ></textarea>
-            </div>
-            
-            <button type="submit" class="submit-btn">Envoyer le message</button>
-          </form>
         </div>
       </div>
     </div>
@@ -158,7 +105,7 @@ const envoyerMessage = () => {
 }
 
 .contact-content {
-  display: grid;
+  display: inline;
   grid-template-columns: 1fr 1fr;
   gap: 3rem;
 }

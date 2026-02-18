@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const cvDriveLink = 'https://drive.google.com/your-cv-link' // À remplacer par votre vrai lien
+const cvDriveLink = 'https://drive.google.com/uc?export=download&id=1FGdZjynJrrJAzAsSuEmwoQA7qzJ3ekxQ' // À remplacer par votre vrai lien
 </script>
 
 <template>

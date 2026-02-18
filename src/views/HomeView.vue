@@ -1,25 +1,28 @@
 <script setup>
 import { ref } from 'vue'
 import ProjectCard from '../components/ProjectCard.vue'
+import networkImage from '../assets/network.png'
+import devImage from '../assets/dev.png'
+import socImage from '../assets/soc.png'
 
 const projects = ref([
   {
     title: "Infrastructure réseau sécurisée",
-    description: "Conception d'une infrastructure réseau avec 6 sites interconnectés sur Cisco Packet Tracer",
+    description: "Conception d'une infrastructure réseau avec 6 sites interconnectés sur Cisco Packet Tracer.",
     technologies: ["OSPF", "RIP", "EtherChannel", "DNS"],
-    image: "network-project.jpg" // Vous pouvez ajouter une image plus tard
+    image: networkImage // Vous pouvez ajouter une image plus tard
   },
   {
-    title: "Site Web Full Stack",
-    description: "Développement complet d'un site web avec React.js, Laravel et PostgreSQL",
+    title: "Site Web pour un restaurant",
+    description: "Développement complet d'un site web avec React.js, Laravel et PostgreSQL dans le cadre d'un projet.",
     technologies: ["React.js", "Laravel", "PostgreSQL"],
-    image: "web-project.jpg"
+    image: devImage
   },
   {
     title: "Infrastructure SOC",
-    description: "Mise en place d'une infrastructure SOC avec Wazuh, Shuffle, Grafana et OpenVAS",
+    description: "Mise en place d'un système d'orchestration et automatisation des réponses suite aux incidents avec l'aide de Wazuh et Shuffle dans infrastructure SOC comprennant aussi OpenVAS et Graffana.",
     technologies: ["Wazuh", "Shuffle", "Grafana", "OpenVAS"],
-    image: "soc-project.jpg"
+    image: socImage
   }
 ])
 </script>
@@ -29,13 +32,12 @@ const projects = ref([
     <!-- Hero Section -->
     <section class="hero">
       <div class="hero-content">
-        <img src="../assets/logo.png" alt="Logo" class="logo" />
         <h1>NJETCHOU NZEPA DANIEL JORDAN</h1>
         <h2>Étudiant en 3ème année en Génie Informatique</h2>
         <p class="subtitle">Passionné par la cybersécurité et le développement web</p>
         <div class="hero-buttons">
           <router-link to="/about" class="btn primary">En savoir plus</router-link>
-          <a href="https://drive.google.com/uc?export=download&id=1jXd34OM5SNcjfzLBpcSgkIEQONp0WnQz" class="btn secondary" target="_blank">
+          <a href="https://drive.google.com/uc?export=download&id=1FGdZjynJrrJAzAsSuEmwoQA7qzJ3ekxQ" class="btn secondary" target="_blank">
             Télécharger mon CV
           </a>
         </div>
@@ -79,7 +81,7 @@ const projects = ref([
 }
 
 .hero {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-color: #323b4c;
   color: white;
   padding: 4rem 2rem;
   text-align: center;

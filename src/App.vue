@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="nav-container">
           <router-link to="/" class="logo">
             <img src="./assets/logo.png" alt="Logo" class="nav-logo" />
-            <span></span>
+            <span>NJETCHOU N.D.J.</span>
           </router-link>
           
           <ul class="nav-menu">
@@ -31,7 +31,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="footer-links">
           <a href="https://github.com/nnd-gb" target="_blank">GitHub</a>
           <a href="#" target="_blank">LinkedIn</a>
-          <a href="#" target="_blank">TryHackMe</a>
+          <a href="https://www.linkedin.com/in/daniel-jordan-njetchou-nzepa-6a057733b?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">TryHackMe</a>
         </div>
       </div>
     </footer>
