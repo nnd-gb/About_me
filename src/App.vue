@@ -9,7 +9,7 @@ import { RouterLink, RouterView } from 'vue-router'
         <div class="nav-container">
           <router-link to="/" class="logo">
             <img src="./assets/logo.png" alt="Logo" class="nav-logo" />
-            <span>NNDJ</span>
+            <span></span>
           </router-link>
           
           <ul class="nav-menu">
