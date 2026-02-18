@@ -5,6 +5,8 @@ import networkImage from '../assets/network.png'
 import devImage from '../assets/dev.png'
 import socImage from '../assets/soc.png'
 
+const cvDriveLink = '../CV_NJETCHOU_NZEPA_DANIEL_2026.pdf'
+
 const projects = ref([
   {
     title: "Infrastructure réseau sécurisée",
@@ -37,7 +39,7 @@ const projects = ref([
         <p class="subtitle">Passionné par la cybersécurité et le développement web</p>
         <div class="hero-buttons">
           <router-link to="/about" class="btn primary">En savoir plus</router-link>
-          <a href="https://drive.google.com/uc?export=download&id=1FGdZjynJrrJAzAsSuEmwoQA7qzJ3ekxQ" class="btn secondary" target="_blank">
+          <a :href="cvDriveLink"  class="btn secondary" target="_blank">
             Télécharger mon CV
           </a>
         </div>

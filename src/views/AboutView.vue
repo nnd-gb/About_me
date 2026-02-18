@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const cvDriveLink = 'https://drive.google.com/uc?export=download&id=1FGdZjynJrrJAzAsSuEmwoQA7qzJ3ekxQ' // À remplacer par votre vrai lien
+const cvDriveLink = '../CV_NJETCHOU_NZEPA_DANIEL_2026.pdf' // À remplacer par votre vrai lien
 </script>
 
 <template>
@@ -33,7 +33,7 @@ const cvDriveLink = 'https://drive.google.com/uc?export=download&id=1FGdZjynJrrJ
           <h2>Qui suis-je ?</h2>
           <p class="bio-text">
             Je suis un étudiant en 3ème année de Génie Informatique à l'Institut Ucac-Icam, 
-            passionné par la cybersécurité et le développement web. Mon parcours m'a permis 
+            passionné par la cybersécurité et le développement web aspirant à faire dans le domaine de la cybersécurité. Mon parcours m'a permis 
             d'acquérir des compétences solides aussi bien en développement d'applications 
             qu'en sécurité informatique.
           </p>
@@ -41,7 +41,7 @@ const cvDriveLink = 'https://drive.google.com/uc?export=download&id=1FGdZjynJrrJ
           <h3>Formation</h3>
           <ul class="education-list">
             <li>
-              <strong>Institut Ucac-Icam</strong> - Génie Informatique (2021-2024)
+              <strong>Institut Ucac-Icam</strong> - Génie Informatique (2023-en cours)
             </li>
             <li>
               <strong>College Libermann</strong> - Baccalauréat D
