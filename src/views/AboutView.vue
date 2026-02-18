@@ -1,7 +1,8 @@
 <script setup>
 import { ref } from 'vue'
+import cvFile from '../CV_NJETCHOU_NZEPA_DANIEL_2026.pdf'
 
-const cvDriveLink = 'CV_NJETCHOU_NZEPA_DANIEL_2026.pdf' // À remplacer par votre vrai lien
+const cvDriveLink = cvFile // À remplacer par votre vrai lien
 </script>
 
 <template>

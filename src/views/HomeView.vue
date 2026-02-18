@@ -4,8 +4,9 @@ import ProjectCard from '../components/ProjectCard.vue'
 import networkImage from '../assets/network.png'
 import devImage from '../assets/dev.png'
 import socImage from '../assets/soc.png'
+import cvFile from '../CV_NJETCHOU_NZEPA_DANIEL_2026.pdf'
 
-const cvDriveLink = 'CV_NJETCHOU_NZEPA_DANIEL_2026.pdf'
+const cvDriveLink = cvFile
 
 const projects = ref([
   {
