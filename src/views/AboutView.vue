@@ -1,7 +1,7 @@
 <script setup>
 import { ref } from 'vue'
 
-const cvDriveLink = '../CV_NJETCHOU_NZEPA_DANIEL_2026.pdf' // À remplacer par votre vrai lien
+const cvDriveLink = '/CV_NJETCHOU_NZEPA_DANIEL_2026.pdf' // À remplacer par votre vrai lien
 </script>
 
 <template>
