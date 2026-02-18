@@ -30,8 +30,8 @@ import { RouterLink, RouterView } from 'vue-router'
         <p>&copy; 2024 NJETCHOU NZEPA Daniel Jordan. Tous droits réservés.</p>
         <div class="footer-links">
           <a href="https://github.com/nnd-gb" target="_blank">GitHub</a>
-          <a href="#" target="_blank">LinkedIn</a>
-          <a href="https://www.linkedin.com/in/daniel-jordan-njetchou-nzepa-6a057733b?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">TryHackMe</a>
+          <a href="https://www.linkedin.com/in/daniel-jordan-njetchou-nzepa-6a057733b?utm_source=share_via&utm_content=profile&utm_medium=member_ios" target="_blank">LinkedIn</a>
+          <a href="https://tryhackme.com/p/daniel.gb" target="_blank">TryHackMe</a>
         </div>
       </div>
     </footer>
